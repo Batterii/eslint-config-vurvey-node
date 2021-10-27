@@ -12,6 +12,7 @@
 	"scripts": {
 		"lint": "eslint .",
 		"lintf": "eslint . --fix",
+		"preversion": "npm run lint",
 		"prepublishOnly": "git push && git push --tags"
 	},
 	"dependencies": {

@@ -1,6 +1,6 @@
 {
 	"name": "@batterii/eslint-config-vurvey-node",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "ESLint configuration for Vurvey Node.js projects",
 	"author": "Batterii, LLC",
 	"license": "MIT",

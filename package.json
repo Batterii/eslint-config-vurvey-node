@@ -15,7 +15,7 @@
 		"prepublishOnly": "git push && git push --tags"
 	},
 	"dependencies": {
-		"@batterii/eslint-config-vurvey": "^0.1.1"
+		"@batterii/eslint-config-vurvey": "^0.2.0"
 	},
 	"devDependencies": {
 		"eslint": "^7.13.0"

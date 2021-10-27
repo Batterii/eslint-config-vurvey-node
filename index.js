@@ -6,10 +6,10 @@ module.exports = {
 		"sort-imports-es6-autofix",
 	],
 	rules: {
-		"import/extensions": ["error", "always", {ignorePackages: true}],
+		"import/extensions": ["error", "always", {ignorePackages: true }],
 		"no-restricted-syntax": ["error", {
 			message: "Don't declare enums",
-			selector: "TSEnumDeclaration",
+			selector: "TSEnumDeclaration"
 		}],
 		"sort-imports": "off",
 		"sort-imports-es6-autofix/sort-imports-es6": ["error", {

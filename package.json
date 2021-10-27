@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"repository": "github:Batterii/eslint-config-vurvey-node",
 	"files": [
+		"base.js",
 		"index.js",
 		"test.js"
 	],

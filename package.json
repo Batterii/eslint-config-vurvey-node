@@ -17,14 +17,14 @@
 		"prepublishOnly": "git push && git push --tags"
 	},
 	"dependencies": {
-		"@batterii/eslint-config-vurvey": "^0.2.0"
+		"@batterii/eslint-config-vurvey": "^0.3.0"
 	},
 	"devDependencies": {
 		"eslint": "^7.13.0"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.7.0",
-		"@typescript-eslint/parser": "^4.7.0",
+		"@typescript-eslint/eslint-plugin": "^5.3.0",
+		"@typescript-eslint/parser": "^5.3.0",
 		"eslint": "^7.13.0",
 		"eslint-plugin-import": "^2.24.0",
 		"eslint-plugin-node": "^11.1.0",

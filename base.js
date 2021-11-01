@@ -2,10 +2,7 @@ module.exports = {
 	env: {
 		node: true,
 	},
-	extends: [
-		"@batterii/eslint-config-vurvey/base",
-		"plugin:node/recommended",
-	],
+	extends: "@batterii/eslint-config-vurvey/base",
 	plugins: [
 		"import",
 		"sort-imports-es6-autofix",

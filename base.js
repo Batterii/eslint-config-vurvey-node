@@ -8,6 +8,7 @@ module.exports = {
 		"sort-imports-es6-autofix",
 	],
 	rules: {
+		"@typescript-eslint/switch-exhaustiveness-check": "error",
 		"import/extensions": ["error", "always", {ignorePackages: true}],
 		"no-process-env": "error",
 		"no-process-exit": "error",

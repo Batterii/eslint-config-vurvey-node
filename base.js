@@ -8,7 +8,7 @@ module.exports = {
 		"sort-imports-es6-autofix",
 	],
 	rules: {
-		"import/extensions": ["error", "always", {ignorePackages: true}],
+		"import/extensions": ["error", "never"],
 		"no-process-env": "error",
 		"no-process-exit": "error",
 		"no-restricted-syntax": ["error", {

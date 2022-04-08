@@ -8,13 +8,9 @@ module.exports = {
 		"sort-imports-es6-autofix",
 	],
 	rules: {
-		"import/extensions": ["error", "always", {ignorePackages: true}],
+		"import/extensions": ["error", "never"],
 		"no-process-env": "error",
 		"no-process-exit": "error",
-		"no-restricted-syntax": ["error", {
-			message: "Don't declare enums",
-			selector: "TSEnumDeclaration",
-		}],
 		"no-sync": "warn",
 		"sort-imports-es6-autofix/sort-imports-es6": ["error", {
 			ignoreCase: true,
